@@ -31,3 +31,42 @@ body {
     font-size: 0.75rem;
     font-weight: 500;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    width: 477px;
+    
+    margin-top: 36px;
+    margin-left: 35px;
+}
+
+.input--fields{
+    display: flex;
+
+    height: 35px;
+    justify-content: space-between;
+
+}
+
+.textfield1, .textfield2{
+    width: 230px;
+    
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.form--button{
+    margin-top: 15px;
+    width: 477px;
+    height: 40px;
+    
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
